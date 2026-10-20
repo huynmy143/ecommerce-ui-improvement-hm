@@ -1,61 +1,69 @@
-# AI Usage Log
-## 1. Công cụ AI
-- **Tên công cụ:** ChatGPT.
-- **Mục đích:** Hỗ trợ phân tích yêu cầu giao diện, xây dựng mã nguồn HTML5/CSS3 và đề xuất điều chỉnh thiết kế.
-- **Website tham khảo:** https://ananas.vn/
-## 2. Mục đích sử dụng
-ChatGPT được sử dụng để hỗ trợ:
-- Đề xuất bố cục trang chủ thương mại điện tử.
-- Xây dựng cấu trúc HTML5 và định dạng CSS3.
-- Tổ chức các khu vực Header, Hero Banner, danh mục nhanh, sản phẩm nổi bật và Footer.
-- Đề xuất sử dụng Flexbox, CSS Grid và Media Queries để hỗ trợ responsive.
-## 3. Prompt đã sử dụng
-**Prompt chính:**
+# E-commerce UI Improvement
 
-"Bạn là một Front-end Developer chuyên xây dựng giao diện website thương mại điện tử bằng HTML5 và CSS3.
+## 1. Giới thiệu
 
-Tôi đang thực hiện dự án cải tiến giao diện trang chủ (Homepage) của website Ananas (https://ananas.vn/).
+Dự án thực hiện cải tiến giao diện trang chủ (Homepage) của website thương mại điện tử Ananas ([https://ananas.vn/](https://ananas.vn/)) bằng HTML5 và CSS3.
 
-Qua khảo sát, trang chủ Ananas đã có các thành phần điều hướng và khu vực giới thiệu sản phẩm tương đối đầy đủ. Tuy nhiên, việc kết hợp nhiều nội dung quảng bá, banner và chương trình khuyến mãi có thể khiến người dùng mất thêm thời gian để tìm đến danh mục sản phẩm mong muốn.
+Giao diện được thiết kế lại nhằm cải thiện khả năng điều hướng, giúp người dùng truy cập nhanh đến các danh mục sản phẩm phổ biến, đồng thời sắp xếp nội dung quảng bá và mua sắm theo thứ tự ưu tiên rõ ràng hơn.
 
-Vì vậy, tôi lựa chọn cải tiến khả năng điều hướng trên trang chủ, tập trung vào việc bổ sung lối truy cập nhanh đến các danh mục phổ biến và sắp xếp nội dung theo thứ tự ưu tiên rõ ràng hơn.
-Hãy xây dựng giao diện bằng HTML5 và CSS3, có Header, Hero Banner, danh mục truy cập nhanh, tối thiểu bốn sản phẩm mẫu, khu vực quảng bá thương hiệu và Footer. Tách mã nguồn thành hai file `index.html` và `style.css`. Sử dụng HTML semantic, Flexbox, CSS Grid, Media Queries và hiệu ứng hover phù hợp. Ưu tiên mã nguồn đơn giản, dễ hiểu, dễ chỉnh sửa và phù hợp với người mới học HTML/CSS."
-## 4. Kết quả AI đề xuất
-ChatGPT hỗ trợ xây dựng giao diện trang chủ với các thành phần chính:
-- Header và thanh điều hướng.
-- Hero Banner gồm tiêu đề, nội dung mô tả, nút CTA và hình ảnh sản phẩm.
-- Khu vực truy cập nhanh đến bốn danh mục phổ biến.
-- Danh sách bốn sản phẩm mẫu với hình ảnh, tên và giá bán.
-- Khu vực quảng bá thương hiệu và Footer.
-- CSS sử dụng Flexbox, CSS Grid, Media Queries và hiệu ứng hover.
-## 5. Kiểm tra và điều chỉnh
-Sau khi nhận mã nguồn do AI đề xuất, tôi đã mở file `index.html` bằng trình duyệt Microsoft Edge và sử dụng Developer Tools để kiểm tra giao diện.
-Các nội dung được kiểm tra gồm:
-- Khả năng hiển thị của Header, Hero Banner và các khu vực nội dung.
-- Cách trình bày tiêu đề, hình ảnh sản phẩm và nút CTA.
-- Bố cục khi chuyển đổi giữa chế độ máy tính và mô phỏng điện thoại.
-- Cấu trúc liên kết giữa file HTML và CSS.
-- Sự phù hợp của giao diện với mục tiêu tăng khả năng tiếp cận danh mục sản phẩm.
-**Các điều chỉnh đã thực hiện:**
-- Thiết kế lại Hero Banner theo bố cục bất đối xứng.
-- Điều chỉnh kích thước, độ đậm và khoảng cách chữ.
-- Bổ sung font Be Vietnam Pro.
-- Sử dụng màu cam làm màu nhấn và tinh chỉnh hiệu ứng của nút CTA.
-- Điều chỉnh bố cục cho các kích thước màn hình khác nhau.
-**Những giới hạn được ghi nhận:**
-- Một số liên kết chỉ điều hướng đến các khu vực trên cùng trang.
-- Dữ liệu sản phẩm và một số thông tin hiển thị mang tính minh họa.
-- Hình ảnh và font chữ trực tuyến phụ thuộc vào kết nối Internet.
-- Chưa triển khai backend, tìm kiếm thực tế, giỏ hàng hoặc thanh toán.
-## 6. Phần em hiểu và có thể giải thích
-Các thành phần mã nguồn quan trọng mà em hiểu và có thể giải thích:
-- **HTML5 semantic:** Các thẻ `header`, `nav`, `main`, `section`, `article` và `footer` dùng để tổ chức cấu trúc trang web theo từng khu vực.
-- **CSS Grid:** Dùng để sắp xếp các thành phần theo hàng và cột, chẳng hạn như Hero Banner và danh sách sản phẩm.
-- **Flexbox:** Hỗ trợ căn chỉnh, phân bố khoảng cách và sắp xếp các thành phần trong một hàng hoặc cột.
-- **Media Queries:** Cho phép thay đổi kiểu trình bày dựa trên kích thước màn hình, giúp giao diện thích ứng với máy tính bảng và điện thoại.
-- **Typography:** Các thuộc tính như `font-family`, `font-size`, `font-weight` và `line-height` giúp kiểm soát cách hiển thị văn bản.
-- **Hover và transition:** Tạo phản hồi trực quan khi người dùng di chuyển con trỏ đến nút bấm, liên kết hoặc hình ảnh.
-- **Responsive layout:** Kết hợp bố cục linh hoạt và Media Queries để hạn chế nội dung tràn khỏi màn hình nhỏ.
-## 7. Tự đánh giá
-AI giúp rút ngắn thời gian xây dựng bản giao diện ban đầu và cung cấp gợi ý về cấu trúc, bố cục và CSS. Tuy nhiên, kết quả do AI tạo ra không được xem là hoàn toàn chính xác hoặc tự động phù hợp với yêu cầu.
-Em vẫn chủ động kiểm tra mã nguồn, đánh giá giao diện trên trình duyệt, điều chỉnh các thành phần cần thiết và hiểu những đoạn mã được sử dụng.
+## 2. Website tham khảo
+
+- **Tên website:** Ananas
+- **URL:** https://ananas.vn/
+- **Khu vực đã khảo sát:** Trang chủ (Homepage).
+- **Khu vực cải tiến:** Trang chủ, tập trung vào Hero Banner và khu vực truy cập nhanh danh mục sản phẩm.
+
+## 3. Chức năng
+
+- Hiển thị các khu vực chính gồm Header, Hero Banner, danh mục nhanh, sản phẩm nổi bật, khu vực quảng bá thương hiệu và Footer.
+- Hiển thị danh mục sản phẩm như Giày Nam, Giày Nữ, Sản phẩm mới và Sale Off.
+- Hiển thị danh sách sản phẩm mẫu với hình ảnh, tên, thông tin phân loại và giá bán bằng VNĐ.
+- Cung cấp các liên kết điều hướng và nút thao tác trên giao diện.
+- Hỗ trợ bố cục responsive cho màn hình máy tính, máy tính bảng và điện thoại.
+
+**Lưu ý:** Đây là bản dựng giao diện phía người dùng. Các chức năng như tìm kiếm thực tế, quản lý giỏ hàng và thanh toán chưa được triển khai.
+
+## 4. Công nghệ
+
+- **HTML5:** Xây dựng cấu trúc và nội dung trang web.
+- **CSS3:** Thiết kế giao diện, định dạng nội dung, tạo hiệu ứng và điều chỉnh bố cục responsive.
+- **Flexbox và CSS Grid:** Hỗ trợ sắp xếp các thành phần giao diện.
+- **Media Queries:** Điều chỉnh bố cục theo kích thước màn hình.
+- **Google Fonts – Be Vietnam Pro:** Hỗ trợ hiển thị nội dung tiếng Việt.
+
+## 5. Cách chạy
+
+1. Tải hoặc sao chép mã nguồn dự án về máy tính.
+2. Đảm bảo file `index.html` và file `style.css` nằm trong cùng một thư mục.
+3. Mở file `index.html` bằng trình duyệt Microsoft Edge, Google Chrome hoặc trình duyệt tương thích.
+4. Để kiểm tra giao diện trên điện thoại, mở Developer Tools và sử dụng chế độ mô phỏng thiết bị (Device Toolbar).
+5. Đảm bảo thiết bị có kết nối Internet nếu giao diện sử dụng font chữ và hình ảnh từ nguồn trực tuyến.
+
+## 6. Cải tiến đã thực hiện
+
+### Vấn đề ban đầu
+
+Qua khảo sát website Ananas, trang chủ có nhiều banner, nội dung quảng bá và chương trình khuyến mãi. Điều này có thể khiến người dùng mất thêm thời gian để tìm đến danh mục sản phẩm mong muốn.
+
+### Những thay đổi đã thực hiện
+
+- **Cải tiến Hero Banner:** Phân chia bố cục bất đối xứng, đặt nội dung bên trái và hình ảnh sản phẩm bên phải nhằm làm nổi bật thông điệp chính.
+- **Tăng khả năng nhận diện:** Sử dụng màu cam làm màu nhấn, kết hợp nền trung tính và hình ảnh sneaker.
+- **Cải thiện kiểu chữ:** Sử dụng font Be Vietnam Pro, điều chỉnh kích thước, độ đậm và khoảng cách chữ.
+- **Bổ sung khu vực truy cập nhanh:** Tổ chức bốn danh mục Giày Nam, Giày Nữ, Sản phẩm mới và Sale Off ngay sau Hero Banner.
+- **Tổ chức sản phẩm đồng nhất:** Sử dụng các thẻ sản phẩm có cấu trúc thống nhất, hiển thị hình ảnh, tên, thông tin phân loại và giá.
+- **Điều chỉnh giao diện responsive:** Sử dụng CSS Grid và Media Queries để thay đổi bố cục theo kích thước màn hình.
+
+### Kết quả
+
+Giao diện được tổ chức theo thứ tự rõ ràng hơn, nhấn mạnh thông điệp thương hiệu và tạo lối truy cập nhanh đến các danh mục phổ biến. Tuy nhiên, đây vẫn là bản dựng giao diện minh họa; hiệu quả cải thiện trải nghiệm người dùng chưa được đo lường bằng dữ liệu thực tế.
+
+## 7. Hỗ trợ từ AI
+
+ChatGPT được sử dụng để hỗ trợ đề xuất bố cục, xây dựng mã nguồn HTML5 và CSS3, giải thích các thành phần giao diện.
+
+Sau khi nhận kết quả, người thực hiện đã kiểm tra giao diện trên trình duyệt và sử dụng Developer Tools để mô phỏng màn hình điện thoại. Các điều chỉnh bổ sung tập trung vào bố cục Hero Banner, font Be Vietnam Pro, màu sắc, kích thước chữ và cách trình bày thanh điều hướng.
+
+Người thực hiện chịu trách nhiệm kiểm tra, điều chỉnh mã nguồn và đánh giá mức độ phù hợp của các thay đổi với mục tiêu cải tiến ban đầu.
+
+Chi tiết về việc sử dụng AI được trình bày trong file `AI_USAGE.md`.
