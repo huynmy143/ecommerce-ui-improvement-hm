@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Khám phá giày và phụ kiện Ananas. Tìm nhanh danh mục, xem sản phẩm nổi bật và bộ sưu tập mới.">
+  <title>Ananas — Discover Your Everyday</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Thanh thông báo ngắn -->
+  <div class="announcement">
+    Miễn phí giao hàng cho đơn hàng từ 						
+    <strong>mức áp dụng theo chính sách hiện hành</strong>
+  </div>
+
+  <!-- Header: logo, điều hướng và công cụ mua sắm -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#" aria-label="Ananas - Trang chủ">ANANAS<span>®</span></a>
+
+      <nav class="main-nav" aria-label="Điều hướng chính">
+        <a href="#quick-categories">SẢN PHẨM</a>
+        <a href="#featured">BỘ SƯU TẬP</a>
+        <a href="#brand-story">VỀ ANANAS</a>
+        <a class="nav-sale" href="#quick-categories">SALE OFF</a>
+      </nav>
+
+      <div class="header-tools">
+        <a class="tool-link" href="#featured" aria-label="Tìm kiếm">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 5 5"></path></svg>
+          <span>Tìm kiếm</span>
+        </a>
+        <a class="tool-link cart-link" href="#featured" aria-label="Giỏ hàng">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.2 11.2a2 2 0 0 0 2 1.6h8.9a2 2 0 0 0 1.9-1.4L22 8H6"></path><circle cx="10" cy="21" r="1"></circle><circle cx="18" cy="21" r="1"></circle></svg>
+          <span>Giỏ hàng</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Banner chính: thông điệp thương hiệu và CTA -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">THE EVERYDAY ICON</p>
+        <h1 id="hero-title">Bước đi theo<br>cách của bạn.</h1>
+        <p class="hero-description">Những thiết kế tối giản, linh hoạt để đồng hành cùng nhịp sống mỗi ngày.</p>
+        <a class="button button-dark" href="#featured">Khám phá sản phẩm <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="hero-visual">
+        <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=1400&q=85"
+             alt="Đôi giày sneaker phong cách đường phố" fetchpriority="high">
+        <span class="hero-stamp">MOVE<br>YOUR<br>WAY.</span>
+      </div>
+      <div class="hero-index"><span>01</span><span class="index-line"></span><span>03</span></div>
+    </section>
+
+    <!-- Lối truy cập nhanh được đặt ngay sau banner để giảm thao tác tìm danh mục -->
+    <section class="quick-section section-wrap" id="quick-categories" aria-labelledby="quick-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">FIND YOUR PAIR</p>
+          <h2 id="quick-title">Bạn đang tìm gì?</h2>
+        </div>
+        <p class="section-note">Đi thẳng đến danh mục bạn quan tâm.</p>
+      </div>
+      <div class="category-grid">
+        <a class="category-card category-men" href="#featured">
+          <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80" alt="Giày sneaker phong cách năng động" loading="lazy">
+          <span class="category-overlay"></span>
+          <span class="category-copy"><small>EXPLORE COLLECTION</small><strong>Giày Nam</strong><span class="category-arrow">↗</span></span>
+        </a>
+        <a class="category-card category-women" href="#featured">
+          <img src="https://images.unsplash.com/photo-1495555961986-6d4c1ecb7be3?auto=format&fit=crop&w=900&q=80" alt="Giày sneaker phong cách tối giản" loading="lazy">
+          <span class="category-overlay"></span>
+          <span class="category-copy"><small>EXPLORE COLLECTION</small><strong>Giày Nữ</strong><span class="category-arrow">↗</span></span>
+        </a>
+        <a class="category-card category-new" href="#featured">
+          <img src="https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=900&q=80" alt="Mẫu sneaker mới" loading="lazy">
+          <span class="category-overlay"></span>
+          <span class="category-copy"><small>JUST DROPPED</small><strong>Sản phẩm mới</strong><span class="category-arrow">↗</span></span>
+        </a>
+        <a class="category-card category-sale" href="#featured">
+          <img src="https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&fit=crop&w=900&q=80" alt="Trang phục và phụ kiện thời trang" loading="lazy">
+          <span class="category-overlay"></span>
+          <span class="category-copy"><small>LAST CHANCE</small><strong>Sale Off</strong><span class="category-arrow">↗</span></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Sản phẩm mẫu: thay ảnh, tên và giá bằng dữ liệu đã xác minh trước khi đăng thật -->
+    <section class="featured-section section-wrap" id="featured" aria-labelledby="featured-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">PICKED FOR YOU</p>
+          <h2 id="featured-title">Sản phẩm nổi bật</h2>
+        </div>
+        <a class="text-link" href="#quick-categories">Xem tất cả <span aria-hidden="true">↗</span></a>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card">
+          <a class="product-image" href="#featured" aria-label="Xem sản phẩm Urbas">
+            <span class="product-label">BEST SELLER</span>
+            <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=800&q=80" alt="Giày sneaker vải phong cách cổ điển" loading="lazy">
+          </a>
+          <div class="product-info">
+            <p class="product-category">VULCANIZED · LOW TOP</p>
+            <h3><a href="#featured">Urbas — Classic Canvas</a></h3>
+            <p class="product-color">Offwhite / Black</p>
+            <div class="product-bottom"><strong>650.000₫</strong><a href="#featured" class="product-action">Xem sản phẩm <span>↗</span></a></div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <a class="product-image" href="#featured" aria-label="Xem sản phẩm Vintas">
+            <span class="product-label label-new">NEW ARRIVAL</span>
+            <img src="https://images.unsplash.com/photo-1495555961986-6d4c1ecb7be3?auto=format&fit=crop&w=800&q=80" alt="Giày sneaker màu trung tính" loading="lazy">
+          </a>
+          <div class="product-info">
+            <p class="product-category">VINTAS · LOW TOP</p>
+            <h3><a href="#featured">Vintas — Everyday</a></h3>
+            <p class="product-color">Cream / Natural</p>
+            <div class="product-bottom"><strong>720.000₫</strong><a href="#featured" class="product-action">Xem sản phẩm <span>↗</span></a></div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <a class="product-image" href="#featured" aria-label="Xem sản phẩm Track 6">
+            <img src="https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=800&q=80" alt="Giày sneaker thể thao kiểu dáng hiện đại" loading="lazy">
+          </a>
+          <div class="product-info">
+            <p class="product-category">TRACK 6 · RUNNING</p>
+            <h3><a href="#featured">Track 6 — Utility</a></h3>
+            <p class="product-color">Grey / White</p>
+            <div class="product-bottom"><strong>890.000₫</strong><a href="#featured" class="product-action">Xem sản phẩm <span>↗</span></a></div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <a class="product-image" href="#featured" aria-label="Xem sản phẩm Basas">
+            <span class="product-label label-sale">SALE OFF</span>
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80" alt="Giày sneaker màu đỏ nổi bật" loading="lazy">
+          </a>
+          <div class="product-info">
+            <p class="product-category">BASAS · HIGH TOP</p>
+            <h3><a href="#featured">Basas — Street Flow</a></h3>
+            <p class="product-color">Red / White</p>
+            <div class="product-bottom"><strong>590.000₫</strong><a href="#featured" class="product-action">Xem sản phẩm <span>↗</span></a></div>
+          </div>
+        </article>
+      </div>
+      <p class="demo-note">* Tên, giá và hình ảnh ở đây là dữ liệu minh họa cho bài tập, không phải thông tin bán hàng được xác nhận từ Ananas.</p>
+    </section>
+
+    <!-- Khu vực quảng bá thương hiệu -->
+    <section class="story-section" id="brand-story">
+      <div class="story-image">
+        <img src="https://images.unsplash.com/photo-1520256862855-398228c41684?auto=format&fit=crop&w=1400&q=85" alt="Không gian sáng tạo và phong cách sống" loading="lazy">
+      </div>
+      <div class="story-copy">
+        <p class="eyebrow">MADE FOR EVERYDAY</p>
+        <h2>Đơn giản trong thiết kế.<br>Khác biệt trong cách bạn đi.</h2>
+        <p>Một đôi giày tốt không chỉ hoàn thiện bộ trang phục, mà còn theo bạn qua những nhịp sống rất riêng. Khám phá phong cách phù hợp với hành trình của chính mình.</p>
+        <a class="button button-outline" href="#quick-categories">Tìm phong cách của bạn <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <!-- Lối dẫn nhanh thứ hai hỗ trợ người dùng tiếp tục khám phá -->
+    <section class="newsletter-strip section-wrap">
+      <div>
+        <p class="eyebrow">STAY IN THE LOOP</p>
+        <h2>Luôn cập nhật những điều mới.</h2>
+        <p>Khám phá sản phẩm và câu chuyện mới nhất từ Ananas.</p>
+      </div>
+      <a class="button button-dark" href="#quick-categories">Khám phá ngay <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+
+  <!-- Footer: liên kết hỗ trợ và thông tin thương hiệu -->
+  <footer class="site-footer">
+    <div class="footer-main">
+      <div class="footer-brand">
+        <a class="brand brand-light" href="#" aria-label="Ananas - Trang chủ">ANANAS<span>®</span></a>
+        <p>Everyday footwear.<br>Made to move with you.</p>
+      </div>
+      <div class="footer-column">
+        <h2>SẢN PHẨM</h2>
+        <a href="#quick-categories">Giày Nam</a>
+        <a href="#quick-categories">Giày Nữ</a>
+        <a href="#quick-categories">Sản phẩm mới</a>
+        <a href="#quick-categories">Sale Off</a>
+      </div>
+      <div class="footer-column">
+        <h2>HỖ TRỢ</h2>
+        <a href="#brand-story">Hướng dẫn chọn size</a>
+        <a href="#brand-story">Chính sách giao hàng</a>
+        <a href="#brand-story">Chính sách đổi trả</a>
+        <a href="#brand-story">Câu hỏi thường gặp</a>
+      </div>
+      <div class="footer-column">
+        <h2>LIÊN HỆ</h2>
+        <p>Email: support@example.com</p>
+        <p>Hotline: cập nhật thông tin chính thức</p>
+        <p>Việt Nam</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 ANANAS — GIAO DIỆN MINH HỌA CHO BÀI TẬP</span>
+      <a href="#">Lên đầu trang ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
